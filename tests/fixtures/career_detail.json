@@ -1,0 +1,342 @@
+{
+"traceId": null,
+"isSuccess": true,
+"statusCode": 0,
+"message": "عملیات با موفقیت انجام شد",
+"data": {
+"basic": {
+"id": 87,
+"pageRoute": "mining-engineer",
+"title": "مهندس معدن",
+"description": "\r\n<p>شما به عنوان مهندس معدن نقشی کلیدی در صنعت استخراج منابع طبیعی خواهید داشت. این شغل ترکیبی از مهارت&zwnj;های فنی، مدیریتی و عملیاتی است. مهندسان معدن مسئول طراحی، برنامه&zwnj;ریزی و نظارت بر فرآیندهای استخراج مواد معدنی هستند و اطمینان حاصل می&zwnj;کنند که این عملیات به صورت ایمن، اقتصادی و با حداقل تأثیرات زیست&zwnj;محیطی انجام شود. آن&zwnj;ها همچنین نقش مهمی در ارزیابی منابع، مدیریت پروژه و همکاری با تیم&zwnj;های زمین&zwnj;شناسی، نقشه&zwnj;برداری و مهندسی دارند.</p>\r\n<p>روز کاری یک مهندس معدن بسته به نوع معدن، نقش او و مرحله&zwnj;ای که پروژه در آن قرار دارد، متفاوت است. بخشی از زمان او ",
+"medianSalary": 60000000,
+"minMedianSalary": 59266666,
+"maxMedianSalary": 70699999,
+"jobPostCount": 410,
+"jobGrowthPercentage": 67,
+"totalSatisfactionScore": 4.333333333333333,
+"jobCategoryId": 22,
+"keyword": "مهندس معدن",
+"bannerImage": "https://fileapi.jobvision.ir/public-files/career-guide/mining-engineer.jpg",
+"blogTagId": 427,
+"careerGuideDuties": [
+{
+"id": 994,
+"title": null,
+"titleFa": "\tمدل‌سازی و طراحی سایت‌های معدنی شامل تونل‌ها، شفت‌ها و عملیات سطحی با استفاده از نرم‌افزارهای تخصصی",
+"titleEn": null
+},
+{
+"id": 995,
+"title": null,
+"titleFa": "\tارزیابی داده‌های زمین‌شناسی برای تخمین ارزش و حجم منابع معدنی",
+"titleEn": null
+},
+{
+"id": 996,
+"title": null,
+"titleFa": "\tنظارت بر فرآیندهای حفاری و استخراج و اطمینان از رعایت زمان‌بندی و استانداردهای کیفی",
+"titleEn": null
+}
+],
+"careerGuideSkills": [
+{
+"id": 985,
+"title": null,
+"titleFa": "\tتوانایی کار با نرم‌افزار Google Earth و Global Mapper",
+"titleEn": null
+},
+{
+"id": 986,
+"title": null,
+"titleFa": "\tآشنایی با GIS",
+"titleEn": null
+},
+{
+"id": 987,
+"title": null,
+"titleFa": "\tتسلط بر فرآیند استخراج معادن روباز و زیرزمینی",
+"titleEn": null
+}
+],
+"careerGuideSteps": [
+{
+"id": 394,
+"title": null,
+"titleFa": "\tدر دانشگاه در یکی از رشته‌های مهندسی معدن یا زمین‌شناسی تحصیل کنید.",
+"titleEn": null
+},
+{
+"id": 395,
+"title": null,
+"titleFa": "\tحین تحصیل، کار با نرم‌افزارهای تخصصی این حوزه را بیاموزید.",
+"titleEn": null
+},
+{
+"id": 396,
+"title": null,
+"titleFa": "\tبرای تقویت زبان انگلیسی خود وقت بگذارید.",
+"titleEn": null
+}
+],
+"careerGuideJourneys": [
+{
+"id": 378,
+"title": null,
+"titleFa": "\tمی‌توانید کار در این حوزه را با موقعیت‌های کارآموزی آغاز کنید.",
+"titleEn": null
+},
+{
+"id": 379,
+"title": null,
+"titleFa": "\tبعد از کسب یک سال سابقه کار، با توجه به علایق و تجربه کاری خود می‌توانید سراغ موقعیت‌های شغلی مهندس اکتشاف یا استخراج معدن بروید.",
+"titleEn": null
+},
+{
+"id": 380,
+"title": null,
+"titleFa": "\tبا کسب حداقل 5 سال تجربه کاری به عنوان مهندس معدن، می‌توانید برای استخدام شدن در موقعیت‌هایی مانند سرپرست کارگاه، کارشناس ارشد فرآوری معدن، سرشیفت معدن، کارشناس ارشد اکتشاف و زمین‌شناسی و کارشناس ارشد ژئوشیمی اقدام کنید.",
+"titleEn": null
+}
+],
+"careerGuideTransitionPossibilities": [
+{
+"id": 531,
+"title": null,
+"titleFa": "\tمهندس عمران",
+"titleEn": null
+},
+{
+"id": 532,
+"title": null,
+"titleFa": "\tمهندس سازه",
+"titleEn": null
+},
+{
+"id": 533,
+"title": null,
+"titleFa": "\tکارشناس محیط زیست",
+"titleEn": null
+}
+],
+"roadMapCourse": null,
+"generalCourses": []
+},
+"salaryHistogram": {
+"minSalaryRange": 16800000,
+"maxSalaryRange": 32000000,
+"medianSalaryRange": 56200000,
+"numberOfParticipants": 91,
+"bars": [
+{
+"min": 16800000,
+"max": 32000000,
+"percent": 10,
+"isMedian": false,
+"index": 0
+},
+{
+"min": 32000000,
+"max": 43000000,
+"percent": 15,
+"isMedian": false,
+"index": 1
+},
+{
+"min": 43000000,
+"max": 54000000,
+"percent": 20,
+"isMedian": false,
+"index": 2
+},
+{
+"min": 54000000,
+"max": 65000000,
+"percent": 18,
+"isMedian": true,
+"index": 3
+},
+{
+"min": 65000000,
+"max": 76000000,
+"percent": 11,
+"isMedian": false,
+"index": 4
+},
+{
+"min": 76000000,
+"max": 87000000,
+"percent": 10,
+"isMedian": false,
+"index": 5
+},
+{
+"min": 87000000,
+"max": 98000000,
+"percent": 5,
+"isMedian": false,
+"index": 6
+},
+{
+"min": 98000000,
+"max": 900000000,
+"percent": 11,
+"isMedian": false,
+"index": 7
+}
+]
+},
+"jobGrowth": [
+{
+"citySizeGroup": null,
+"growth": {
+"startPeriodDate": "2025-10-20T01:40:47.34Z",
+"persianStartPeriodYear": 1404,
+"persianStartPeriodMonth": "مهر",
+"startPeriodJobPostsCount": 1665,
+"endPeriodDate": "2026-10-20T01:40:47.34Z",
+"persianEndPeriodYear": 1405,
+"persianEndPeriodMonth": "مهر",
+"endPeriodJobPostsCount": 2774,
+"jobGrowthPercentage": 67
+}
+},
+{
+"citySizeGroup": {
+"id": 1,
+"title": null,
+"titleFa": "تهران",
+"titleEn": "Tehran"
+},
+"growth": {
+"startPeriodDate": "2025-10-20T01:40:47.34Z",
+"persianStartPeriodYear": 1404,
+"persianStartPeriodMonth": "مهر",
+"startPeriodJobPostsCount": 530,
+"endPeriodDate": "2026-10-20T01:40:47.34Z",
+"persianEndPeriodYear": 1405,
+"persianEndPeriodMonth": "مهر",
+"endPeriodJobPostsCount": 927,
+"jobGrowthPercentage": 75
+}
+},
+{
+"citySizeGroup": {
+"id": 2,
+"title": null,
+"titleFa": "شهرهای بزرگ",
+"titleEn": "Big Cities"
+},
+"growth": {
+"startPeriodDate": "2025-10-20T01:40:47.34Z",
+"persianStartPeriodYear": 1404,
+"persianStartPeriodMonth": "مهر",
+"startPeriodJobPostsCount": 940,
+"endPeriodDate": "2026-10-20T01:40:47.34Z",
+"persianEndPeriodYear": 1405,
+"persianEndPeriodMonth": "مهر",
+"endPeriodJobPostsCount": 1811,
+"jobGrowthPercentage": 93
+}
+},
+{
+"citySizeGroup": {
+"id": 3,
+"title": null,
+"titleFa": "شهرهای کوچک",
+"titleEn": "Small Cities"
+},
+"growth": {
+"startPeriodDate": "2025-10-20T01:40:47.34Z",
+"persianStartPeriodYear": 1404,
+"persianStartPeriodMonth": "مهر",
+"startPeriodJobPostsCount": 725,
+"endPeriodDate": "2026-10-20T01:40:47.34Z",
+"persianEndPeriodYear": 1405,
+"persianEndPeriodMonth": "مهر",
+"endPeriodJobPostsCount": 963,
+"jobGrowthPercentage": 33
+}
+}
+],
+"statistics": {
+"totalSurveyCount": 5,
+"mainSatisfactionScore": 4.3,
+"domainDimensions": [
+{
+"domainTitle": "چقدر در روزهای تعطیل و آخر هفته ها کار می‌کنند؟",
+"dimensions": {
+"معمولا": 0.3,
+"همیشه": 0.7
+}
+},
+{
+"domainTitle": "چقدر خارج از ساعت کاری کار می‌کنند؟",
+"dimensions": {
+"معمولا": 0.7,
+"همیشه": 0.3
+}
+},
+{
+"domainTitle": "چند روز در هفته بصورت دورکار مشغول به کار هستند؟",
+"dimensions": {
+"به صورت کامل حضوری هستم": 1
+}
+}
+],
+"opinionScale": [
+{
+"opinionTitle": "امنیت شغلی",
+"scaleValue": 2.3
+},
+{
+"opinionTitle": "حقوق و مزایا",
+"scaleValue": 2.7
+},
+{
+"opinionTitle": "امکان پیشرفت",
+"scaleValue": 3.3
+},
+{
+"opinionTitle": "تنوع وظایف",
+"scaleValue": 3.7
+},
+{
+"opinionTitle": "تعادل بین کار و زندگی",
+"scaleValue": 2.7
+},
+{
+"opinionTitle": "رضایت شغلی",
+"scaleValue": 3.7
+}
+]
+},
+"blogPosts": [],
+"jobsSearchFilter": {
+"searchId": null,
+"keyword": "مهندس معدن",
+"requestedPage": 1,
+"pageSize": 10,
+"companyId": null,
+"sortBy": 1,
+"salaryRanges": [],
+"workTypes": [],
+"locationWrapper": null,
+"workExperiences": [],
+"seniorityLevels": [],
+"searchTimeRange": null,
+"lastSeen": null,
+"isRemote": false,
+"isInternship": false,
+"suitableForDisabled": false,
+"militaryServiceBenefit": false,
+"industries": [],
+"jobCategoryUrlTitle": "mining",
+"jobBenefits": [],
+"searchSourceId": 1,
+"isGovernmentalJobs": false,
+"governmentalCollection": null,
+"disablePenalties": false
+}
+}
+}

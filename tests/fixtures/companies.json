@@ -1,0 +1,89 @@
+{
+"traceId": null,
+"isSuccess": true,
+"statusCode": 0,
+"message": "عملیات با موفقیت انجام شد",
+"data": {
+"companies": [
+{
+"companyId": 994,
+"title": {
+"titleFa": "اسنپ فود",
+"titleEn": "snappfood"
+},
+"shortDescription": null,
+"companyLogoUrl": "https://fileapi.jobvision.ir/api/v1.0/files/getimage?fileid=155426&width=50&height=50",
+"countOfJobPost": 90,
+"companyScore": {
+"scoreOfFeedbackOnRejectedApplications": null,
+"scoreOfJobPostPopularity": 3.3847094801223228,
+"scoreOfCompanyReview": 3.7802547770700636,
+"scoreOfApplicationChangeStatus": 4.87467053241961,
+"scoreOfInterviewsFeedback": 3.393939393939394,
+"totalScore": 4.080674131664801,
+"scoreOfCultureAndValues": 4.003174603174603,
+"scoreOfCareerOpportunities": 3.3555555555555556,
+"scoreOfCompensationAndBenefits": 3.425396825396825,
+"scoreOfSeniorManagement": 3.6666666666666665,
+"scoreOfWorkLifeBalance": 3.5714285714285716,
+"scoreOfProgressAndLearning": 3.7936507936507935,
+"rank": 96
+},
+"companyUrl": "/companies/994/استخدام-اسنپ-فود"
+},
+{
+"companyId": 152828,
+"title": {
+"titleFa": "اسنپ باکس",
+"titleEn": "Snapp Box"
+},
+"shortDescription": null,
+"companyLogoUrl": "https://fileapi.jobvision.ir/api/v1.0/files/getimage?fileid=20634187&width=50&height=50",
+"countOfJobPost": 26,
+"companyScore": {
+"scoreOfFeedbackOnRejectedApplications": null,
+"scoreOfJobPostPopularity": 3.338006230529596,
+"scoreOfCompanyReview": 3.6,
+"scoreOfApplicationChangeStatus": 4.913462360687513,
+"scoreOfInterviewsFeedback": 3.423076923076923,
+"totalScore": 4.008333607408658,
+"scoreOfCultureAndValues": 3.6136363636363638,
+"scoreOfCareerOpportunities": 3.090909090909091,
+"scoreOfCompensationAndBenefits": 3.227272727272727,
+"scoreOfSeniorManagement": 3.25,
+"scoreOfWorkLifeBalance": 3.2954545454545454,
+"scoreOfProgressAndLearning": 3.0681818181818183,
+"rank": 129
+},
+"companyUrl": "/companies/152828/استخدام-اسنپ-باکس"
+},
+{
+"companyId": 1274,
+"title": {
+"titleFa": "اسنپ تریپ",
+"titleEn": "SnappTrip"
+},
+"shortDescription": null,
+"companyLogoUrl": "https://fileapi.jobvision.ir/api/v1.0/files/getimage?fileid=135941&width=50&height=50",
+"countOfJobPost": 4,
+"companyScore": {
+"scoreOfFeedbackOnRejectedApplications": null,
+"scoreOfJobPostPopularity": 3.727142857142857,
+"scoreOfCompanyReview": 3.56140350877193,
+"scoreOfApplicationChangeStatus": 4.838002555784921,
+"scoreOfInterviewsFeedback": 3.4444444444444446,
+"totalScore": 3.9674433470550126,
+"scoreOfCultureAndValues": 3.7719298245614037,
+"scoreOfCareerOpportunities": 3.1403508771929824,
+"scoreOfCompensationAndBenefits": 3.175438596491228,
+"scoreOfSeniorManagement": 3.473684210526316,
+"scoreOfWorkLifeBalance": 3.4210526315789473,
+"scoreOfProgressAndLearning": 3.5789473684210527,
+"rank": 152
+},
+"companyUrl": "/companies/1274/استخدام-اسنپ-تریپ"
+}
+],
+"totalCount": 18
+}
+}

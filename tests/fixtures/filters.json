@@ -1,0 +1,240 @@
+{
+ "traceId": null,
+ "isSuccess": true,
+ "statusCode": 0,
+ "message": "ok",
+ "data": {
+  "jobBenefits": [
+   {
+    "id": 115,
+    "title": "سرویس رفت و برگشت",
+    "titleFa": "سرویس رفت و برگشت",
+    "titleEn": "Transportation"
+   },
+   {
+    "id": 116,
+    "title": "وام",
+    "titleFa": "وام",
+    "titleEn": "Loan"
+   },
+   {
+    "id": 117,
+    "title": "پاداش",
+    "titleFa": "پاداش",
+    "titleEn": "Bonus"
+   },
+   {
+    "id": 118,
+    "title": "پورسانت",
+    "titleFa": "پورسانت",
+    "titleEn": "Commision"
+   }
+  ],
+  "industries": [
+   {
+    "value": 1,
+    "id": 36,
+    "title": "حسابرسی",
+    "titleFa": "حسابرسی",
+    "titleEn": "Accountancy"
+   },
+   {
+    "value": 2,
+    "id": 37,
+    "title": "بانکداری",
+    "titleFa": "بانکداری",
+    "titleEn": "Banking"
+   },
+   {
+    "value": 3,
+    "id": 38,
+    "title": "سرمایه گذاری و مالی",
+    "titleFa": "سرمایه گذاری و مالی",
+    "titleEn": "Finance / Investment"
+   },
+   {
+    "value": 4,
+    "id": 43,
+    "title": "کالاهای مصرفی و تند گردش",
+    "titleFa": "کالاهای مصرفی و تند گردش",
+    "titleEn": "Consumer Goods / FMCG"
+   }
+  ],
+  "salaryRanges": [
+   {
+    "title": "زیر 10 میلیون تومان",
+    "diplayNameEn": "Under10Million",
+    "min": 0,
+    "max": 10,
+    "id": 1,
+    "titleFa": "زیر 10 میلیون تومان",
+    "titleEn": "Lower than 10"
+   },
+   {
+    "title": "بین 10 تا 15 میلیون تومان",
+    "diplayNameEn": "Between10To15Million",
+    "min": 10,
+    "max": 15,
+    "id": 2,
+    "titleFa": "بین 10 تا 15 میلیون تومان",
+    "titleEn": "Between 10 and 15"
+   },
+   {
+    "title": "بین 15 تا 25 میلیون تومان",
+    "diplayNameEn": "Between15To25Million",
+    "min": 15,
+    "max": 25,
+    "id": 4,
+    "titleFa": "بین 15 تا 25 میلیون تومان",
+    "titleEn": "Between 15 and 25"
+   },
+   {
+    "title": "بین 25 تا 40 میلیون تومان",
+    "diplayNameEn": "Between25To40Million",
+    "min": 25,
+    "max": 40,
+    "id": 5,
+    "titleFa": "بین 25 تا 40 میلیون تومان",
+    "titleEn": "Between 25 and 40"
+   }
+  ],
+  "timeRanges": [
+   {
+    "title": "3 روز اخیر",
+    "displayNameEn": "Past3Days",
+    "id": 1,
+    "titleFa": "3 روز اخیر",
+    "titleEn": "Last 3 Days ago"
+   },
+   {
+    "title": "1 هفته اخیر",
+    "displayNameEn": "PastWeek",
+    "id": 2,
+    "titleFa": "1 هفته اخیر",
+    "titleEn": "Last Week ago"
+   },
+   {
+    "title": "15 روز اخیر",
+    "displayNameEn": "Past15Days",
+    "id": 3,
+    "titleFa": "15 روز اخیر",
+    "titleEn": "Last 15 Days ago"
+   },
+   {
+    "title": "1 ماه اخیر",
+    "displayNameEn": "PastMonth",
+    "id": 4,
+    "titleFa": "1 ماه اخیر",
+    "titleEn": "Last Month ago"
+   }
+  ],
+  "workTypes": [
+   {
+    "urlParameter": "full-time",
+    "urlTitle": "full-time",
+    "id": 120,
+    "title": "تمام وقت",
+    "titleFa": "تمام وقت",
+    "titleEn": "Full Time"
+   },
+   {
+    "urlParameter": "part-time",
+    "urlTitle": "part-time",
+    "id": 121,
+    "title": "پاره وقت",
+    "titleFa": "پاره وقت",
+    "titleEn": "Part Time"
+   },
+   {
+    "urlParameter": "project-based",
+    "urlTitle": "project-based",
+    "id": 122,
+    "title": "قراردادی / پروژه ای",
+    "titleFa": "قراردادی / پروژه ای",
+    "titleEn": "Project - Based"
+   }
+  ],
+  "seniorityLevels": [
+   {
+    "title": "کارآموز",
+    "id": 300,
+    "titleFa": "کارآموز",
+    "titleEn": "Internship"
+   },
+   {
+    "title": "کارگر",
+    "id": 246,
+    "titleFa": "کارگر",
+    "titleEn": "Worker"
+   },
+   {
+    "title": "کارمند",
+    "id": 96,
+    "titleFa": "کارمند",
+    "titleEn": "Employee"
+   },
+   {
+    "title": "کارشناس",
+    "id": 97,
+    "titleFa": "کارشناس",
+    "titleEn": "Specialist"
+   }
+  ],
+  "workExperienceRequirements": [
+   {
+    "title": "بدون سابقه کاری",
+    "id": -1,
+    "titleFa": "بدون سابقه کاری",
+    "titleEn": "Without Work Experience"
+   },
+   {
+    "title": "کمتر از 2 سال",
+    "id": 1,
+    "titleFa": "کمتر از 2 سال",
+    "titleEn": "Under 2 years"
+   },
+   {
+    "title": "بین 2 تا 5 سال",
+    "id": 2,
+    "titleFa": "بین 2 تا 5 سال",
+    "titleEn": "From 2 to 5 years"
+   },
+   {
+    "title": "بین 5 تا 8 سال",
+    "id": 3,
+    "titleFa": "بین 5 تا 8 سال",
+    "titleEn": "From 5 to 8 years"
+   }
+  ],
+  "jobCategories": [
+   {
+    "urlTitle": "sales",
+    "id": 9,
+    "title": "فروش و بازاریابی - سطوح کارشناسی و مدیریتی",
+    "titleFa": "فروش و بازاریابی - سطوح کارشناسی و مدیریتی",
+    "titleEn": "Sales and Marketing - Specialist and Manager"
+   },
+   {
+    "urlTitle": "visitor",
+    "id": 203,
+    "title": "فروش و بازاریابی - فروشنده / بازاریاب و ویزیتور / صندوقدار",
+    "titleFa": "فروش و بازاریابی - فروشنده / بازاریاب و ویزیتور / صندوقدار",
+    "titleEn": "Sales and Marketing - Seller, Visitor and Cashier"
+   },
+   {
+    "urlTitle": "store-executive",
+    "id": 179,
+    "title": "مدیر فروشگاه / مدیر رستوران",
+    "titleFa": "مدیر فروشگاه / مدیر رستوران",
+    "titleEn": "Store executive"
+   },
+   {
+    "urlTitle": "customer-support",
+    "id": 34,
+    "title": "خدمات و پشتیبانی مشتریان",
+    "titleFa": "خدمات و پشتیبانی مشتریان",
+    "titleEn": "Customer Support / Account Management"
+   }
+  ]
+ }
+}

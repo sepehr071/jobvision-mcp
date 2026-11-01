@@ -1,0 +1,59 @@
+{
+"traceId": null,
+"isSuccess": true,
+"statusCode": 0,
+"message": "عملیات با موفقیت انجام شد",
+"data": {
+"companyId": 9432,
+"title": {
+"titleFa": "گروه ماموت",
+"titleEn": "Mammut Group"
+},
+"shortDescription": {
+"titleFa": "هلدینگ بین المللی در زمینه خودروهای سواری،تجاری،ساندویچ پانل",
+"titleEn": ""
+},
+"companyLogoUrl": "https://fileapi.jobvision.ir/api/v1.0/files/getimage?fileid=38109727&width=50&height=50",
+"countOfJobPost": 126,
+"companyScore": {
+"scoreOfFeedbackOnRejectedApplications": null,
+"scoreOfJobPostPopularity": 5,
+"scoreOfCompanyReview": 4.75801749271137,
+"scoreOfApplicationChangeStatus": 4.89138399892617,
+"scoreOfInterviewsFeedback": 4.848012470771629,
+"totalScore": 4.817472157793013,
+"scoreOfCultureAndValues": 4.7485207100591715,
+"scoreOfCareerOpportunities": 4.693786982248521,
+"scoreOfCompensationAndBenefits": 4.765532544378698,
+"scoreOfSeniorManagement": 4.689349112426036,
+"scoreOfWorkLifeBalance": 4.710059171597633,
+"scoreOfProgressAndLearning": 4.733727810650888,
+"rank": 1
+},
+"totalCount": 1,
+"companyType": null,
+"companySize": {
+"id": 107,
+"title": "بیش از 5000 نفر",
+"titleFa": "بیش از 5000 نفر",
+"titleEn": "More than 5001 employees"
+},
+"listOfIndustries": [
+{
+"id": 40,
+"title": null,
+"titleFa": "خودرو و صنایع وابسته",
+"titleEn": "Automotive"
+},
+{
+"id": 54,
+"title": null,
+"titleFa": "تولیدی / صنعتی",
+"titleEn": "Manufacturing & Production"
+}
+],
+"companyProductsAndServices": "",
+"establishmentYear": 0,
+"companyUrl": "/companies/9432/استخدام-گروه-ماموت"
+}
+}

@@ -1,0 +1,46 @@
+{
+"traceId": null,
+"isSuccess": true,
+"statusCode": 0,
+"message": "عملیات با موفقیت انجام شد",
+"data": {
+"content": {
+"jobPostIds": [],
+"shortDescription": "<p>استخدام بانک دی 1405 | شرایط و نحوه ثبت&zwnj;نام</p>",
+"shortDescriptionRaw": "استخدام بانک دی 1405 | شرایط و نحوه ثبتنام",
+"description": "<p>بانک دی به&zwnj;منظور تأمین نیروی انسانی موردنیاز خود، از متقاضیان واجد شرایط برای همکاری دعوت می&zwnj;کند. جذب نیروی انسانی در این بانک از طریق انتشار فراخوان دعوت به همکاری و دریافت رزومه انجام می&zwnj;شود و متقاضیان می&zwnj;توانند با مراجعه به سامانه استخدام بانک دی، اطلاعات و مشخصات خود را ثبت کنند.</p>\r\n<p>بر اساس اطلاعات منتشرشده، فرایند جذب نیروی انسانی بانک دی به&zwnj;صورت ارسال رزومه و بررسی درخواست متقاضیان انجام می&zwnj;شود. بنابراین، منظور از استخدام بدون آزمون در این فراخوان، است",
+"companyLogoUrl": "https://fileapi.jobvision.ir/api/v1.0/files/getimage?fileid=26458665",
+"mobileImageUrl": "https://fileapi.jobvision.ir/api/v1.0/files/getimage?fileid=26458665",
+"imageUrl": null,
+"fileId": null,
+"seoTitle": "استخدام بانک دی 1405 | شرایط و نحوه ثبت‌نام",
+"metaDescription": "استخدام بانک دی از طریق فراخوان دعوت به همکاری و ارسال رزومه انجام می‌شود. برای اطلاع از شرایط عمومی، شرط سنی، شرایط بومی بودن و نحوه ثبت‌نام کلیک کنید.",
+"labels": [
+"بانک دی",
+"استخدام بانک‌ها"
+],
+"writtenAt": "2026-10-28T14:31:51.613Z",
+"writtenAtStr": "3 روز پیش",
+"collection": {
+"id": 1,
+"title": "استخدام بانک‌ها",
+"pageRoute": "بانک"
+},
+"company": [
+{
+"id": 70629,
+"title": null,
+"titleFa": "بانک دی",
+"titleEn": "DEY"
+}
+],
+"jobPosts": [],
+"id": 730,
+"typeId": 1,
+"title": "استخدام بانک دی 1405 | شرایط و نحوه ثبت‌نام",
+"pageRoute": "-بانک-دی"
+},
+"mostPopularContents": [],
+"latestRelatedContents": []
+}
+}

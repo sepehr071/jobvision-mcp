@@ -1,0 +1,28 @@
+{
+"traceId": null,
+"isSuccess": true,
+"statusCode": 0,
+"message": "عملیات با موفقیت انجام شد",
+"data": [
+{
+"id": 7,
+"title": "حسابدار",
+"pageRoute": "accountant"
+},
+{
+"id": 87,
+"title": "مهندس معدن",
+"pageRoute": "mining-engineer"
+},
+{
+"id": 26,
+"title": "برنامه نویس جاوا",
+"pageRoute": "java-developer"
+},
+{
+"id": 53,
+"title": "برنامه‌نویس Go",
+"pageRoute": "go-developer"
+}
+]
+}

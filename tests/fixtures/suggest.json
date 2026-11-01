@@ -1,0 +1,18 @@
+{
+ "traceId": null,
+ "isSuccess": true,
+ "statusCode": 0,
+ "message": "ok",
+ "data": [
+  {
+   "id": 7514,
+   "name": "کاراموز python",
+   "frequency": 57
+  },
+  {
+   "id": 3692,
+   "name": "برنامه نویس python",
+   "frequency": 49
+  }
+ ]
+}

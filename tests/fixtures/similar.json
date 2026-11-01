@@ -1,0 +1,331 @@
+{
+ "traceId": null,
+ "isSuccess": true,
+ "statusCode": 0,
+ "message": "ok",
+ "data": [
+  {
+   "id": 1590542,
+   "title": "Backend .NET Developer",
+   "isPersian": false,
+   "userJobPostInfo": null,
+   "properties": {
+    "isInternship": false,
+    "isRemote": false,
+    "isUrgent": true,
+    "requiredRelatedExperienceYears": 3,
+    "suitableForDisabled": false,
+    "salaryCanBeShown": true,
+    "isCheckingResumes": false,
+    "typeId": 1,
+    "linkOutAddress": null,
+    "isBlueCollarJob": false
+   },
+   "company": {
+    "id": 3062,
+    "nameFa": "ایده پردازان (SMS.ir)",
+    "nameEn": "ideh pardazan electeronic javanan",
+    "hasPicture": true,
+    "logoFileId": 28720738,
+    "logoUrl": "https://fileapi.jobvision.ir/api/v1.0/files/getimage?fileid=28720738&width=71&height=71",
+    "pageUrl": "/companies/3062/استخدام-ایده-پردازان-smsir",
+    "isEmployerResponsive": true,
+    "isFamous": false,
+    "isGovernmentalCompany": false,
+    "companyScore": 0
+   },
+   "location": {
+    "country": {
+     "id": 1,
+     "title": null,
+     "titleFa": "ایران",
+     "titleEn": "Iran"
+    },
+    "province": {
+     "urlTitle": "all-cities-of-tehran",
+     "id": 17,
+     "title": "تهران",
+     "titleFa": "تهران",
+     "titleEn": "Tehran"
+    },
+    "city": {
+     "citySize": 4,
+     "citySizeGroupId": 1,
+     "province": null,
+     "urlTitle": "tehran",
+     "id": 320,
+     "title": null,
+     "titleFa": "تهران",
+     "titleEn": "Tehran"
+    },
+    "regionGroup": {
+     "id": 3,
+     "title": null,
+     "titleFa": "غرب",
+     "titleEn": "West"
+    },
+    "region": {
+     "id": 225,
+     "title": null,
+     "titleFa": "طرشت",
+     "titleEn": "Tarasht"
+    }
+   },
+   "jobCategories": [
+    {
+     "id": 30,
+     "title": null,
+     "titleFa": "توسعه نرم افزار و برنامه نویسی",
+     "titleEn": "IT - Software Development (Web,Moblie,…)"
+    }
+   ],
+   "benefits": [
+    {
+     "id": 117,
+     "title": "پاداش",
+     "titleFa": "پاداش",
+     "titleEn": "Bonus"
+    },
+    {
+     "id": 157,
+     "title": "امریه‌ی سربازی",
+     "titleFa": "امریه‌ی سربازی",
+     "titleEn": "Military Service Option"
+    },
+    {
+     "id": 227,
+     "title": "بیمه درمان تکمیلی",
+     "titleFa": "بیمه درمان تکمیلی",
+     "titleEn": "Health insurance\r\n"
+    },
+    {
+     "id": 230,
+     "title": "ساعت کاری منعطف",
+     "titleFa": "ساعت کاری منعطف",
+     "titleEn": "Flexible working hours\r\n"
+    },
+    {
+     "id": 231,
+     "title": "کمک هزینه دوره آموزشی",
+     "titleFa": "کمک هزینه دوره آموزشی",
+     "titleEn": "Learning stipends\r\n"
+    },
+    {
+     "id": 244,
+     "title": "بسته ها و هدایای مناسبتی",
+     "titleFa": "بسته ها و هدایای مناسبتی",
+     "titleEn": "Occasional packages and gifts\r\n"
+    }
+   ],
+   "workType": {
+    "id": 120,
+    "title": null,
+    "titleFa": "تمام وقت",
+    "titleEn": "Full Time"
+   },
+   "seniorityLevel": {
+    "id": 97,
+    "title": null,
+    "titleFa": "کارشناس",
+    "titleEn": "Specialist"
+   },
+   "salary": {
+    "id": 0,
+    "title": null,
+    "titleFa": "60 - 70 میلیون تومان",
+    "titleEn": "60 - 70 Million Tomans",
+    "max": 70,
+    "min": 60
+   },
+   "industry": {
+    "id": 50,
+    "title": "فناوری اطلاعات / نرم افزار و سخت افزار",
+    "titleFa": "فناوری اطلاعات / نرم افزار و سخت افزار",
+    "titleEn": "IT / Software / Hardware"
+   },
+   "gender": {
+    "id": 133,
+    "title": null,
+    "titleFa": "تفاوتی ندارد",
+    "titleEn": "Men / Women"
+   },
+   "labels": [],
+   "firstActivationTime": {
+    "beautifyFa": "امروز",
+    "beautifyEn": "Today",
+    "date": "2026-10-31T16:44:30Z"
+   },
+   "activationTime": {
+    "passedDays": 0,
+    "beautifyFa": "امروز",
+    "beautifyEn": "Today",
+    "date": "2026-10-31T16:44:30Z"
+   },
+   "expireTime": {
+    "daysLeftUntil": 60,
+    "isExpired": false,
+    "beautifyFa": "دیروز",
+    "beautifyEn": "Yesterday",
+    "date": "2026-12-30T16:44:30Z"
+   }
+  },
+  {
+   "id": 1590356,
+   "title": "Oracle Database Administrator",
+   "isPersian": true,
+   "userJobPostInfo": null,
+   "properties": {
+    "isInternship": false,
+    "isRemote": false,
+    "isUrgent": false,
+    "requiredRelatedExperienceYears": 3,
+    "suitableForDisabled": false,
+    "salaryCanBeShown": false,
+    "isCheckingResumes": false,
+    "typeId": 1,
+    "linkOutAddress": null,
+    "isBlueCollarJob": false
+   },
+   "company": {
+    "id": 112,
+    "nameFa": "توسعه سامانه های نرم افزاری نگین - توسن",
+    "nameEn": "TOSAN",
+    "hasPicture": true,
+    "logoFileId": 6706639,
+    "logoUrl": "https://fileapi.jobvision.ir/api/v1.0/files/getimage?fileid=6706639&width=71&height=71",
+    "pageUrl": "/companies/112/استخدام-توسعه-سامانه-های-نرم-افزاری-نگین---توسن",
+    "isEmployerResponsive": true,
+    "isFamous": true,
+    "isGovernmentalCompany": false,
+    "companyScore": 3.93
+   },
+   "location": {
+    "country": {
+     "id": 1,
+     "title": null,
+     "titleFa": "ایران",
+     "titleEn": "Iran"
+    },
+    "province": {
+     "urlTitle": "all-cities-of-tehran",
+     "id": 17,
+     "title": "تهران",
+     "titleFa": "تهران",
+     "titleEn": "Tehran"
+    },
+    "city": {
+     "citySize": 4,
+     "citySizeGroupId": 1,
+     "province": null,
+     "urlTitle": "tehran",
+     "id": 320,
+     "title": null,
+     "titleFa": "تهران",
+     "titleEn": "Tehran"
+    },
+    "regionGroup": {
+     "id": 5,
+     "title": null,
+     "titleFa": "مرکز",
+     "titleEn": "Center"
+    },
+    "region": {
+     "id": 265,
+     "title": null,
+     "titleFa": "گاندی",
+     "titleEn": "Gandi"
+    }
+   },
+   "jobCategories": [
+    {
+     "id": 30,
+     "title": null,
+     "titleFa": "توسعه نرم افزار و برنامه نویسی",
+     "titleEn": "IT - Software Development (Web,Moblie,…)"
+    }
+   ],
+   "benefits": [
+    {
+     "id": 116,
+     "title": "وام",
+     "titleFa": "وام",
+     "titleEn": "Loan"
+    },
+    {
+     "id": 117,
+     "title": "پاداش",
+     "titleFa": "پاداش",
+     "titleEn": "Bonus"
+    },
+    {
+     "id": 227,
+     "title": "بیمه درمان تکمیلی",
+     "titleFa": "بیمه درمان تکمیلی",
+     "titleEn": "Health insurance\r\n"
+    },
+    {
+     "id": 232,
+     "title": "اتاق بازی",
+     "titleFa": "اتاق بازی",
+     "titleEn": "Game room\r\n"
+    },
+    {
+     "id": 238,
+     "title": "کافی شاپ",
+     "titleFa": "کافی شاپ",
+     "titleEn": "Coffee shop\r\n"
+    },
+    {
+     "id": 244,
+     "title": "بسته ها و هدایای مناسبتی",
+     "titleFa": "بسته ها و هدایای مناسبتی",
+     "titleEn": "Occasional packages and gifts\r\n"
+    }
+   ],
+   "workType": {
+    "id": 120,
+    "title": null,
+    "titleFa": "تمام وقت",
+    "titleEn": "Full Time"
+   },
+   "seniorityLevel": {
+    "id": 97,
+    "title": null,
+    "titleFa": "کارشناس",
+    "titleEn": "Specialist"
+   },
+   "salary": null,
+   "industry": {
+    "id": 50,
+    "title": "فناوری اطلاعات / نرم افزار و سخت افزار",
+    "titleFa": "فناوری اطلاعات / نرم افزار و سخت افزار",
+    "titleEn": "IT / Software / Hardware"
+   },
+   "gender": {
+    "id": 133,
+    "title": null,
+    "titleFa": "تفاوتی ندارد",
+    "titleEn": "Men / Women"
+   },
+   "labels": [],
+   "firstActivationTime": {
+    "beautifyFa": "امروز",
+    "beautifyEn": "Today",
+    "date": "2026-10-31T15:35:41Z"
+   },
+   "activationTime": {
+    "passedDays": 0,
+    "beautifyFa": "امروز",
+    "beautifyEn": "Today",
+    "date": "2026-10-31T15:35:41Z"
+   },
+   "expireTime": {
+    "daysLeftUntil": 60,
+    "isExpired": false,
+    "beautifyFa": "دیروز",
+    "beautifyEn": "Yesterday",
+    "date": "2026-12-30T15:35:41Z"
+   }
+  }
+ ]
+}

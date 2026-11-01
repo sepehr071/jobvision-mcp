@@ -1,0 +1,178 @@
+{
+ "traceId": null,
+ "isSuccess": true,
+ "statusCode": 0,
+ "message": "ok",
+ "data": [
+  {
+   "children": [
+    {
+     "urlParameter": "all-cities-of-tehran",
+     "province": {
+      "id": 17,
+      "title": "تهران"
+     },
+     "regionGroups": [],
+     "id": 8,
+     "title": "تمامی شهرهای تهران"
+    },
+    {
+     "urlParameter": "tehran",
+     "province": {
+      "id": 17,
+      "title": "تهران"
+     },
+     "regionGroups": [
+      {
+       "urlParameter": "tehran-shomal",
+       "city": {
+        "id": 320,
+        "title": "تهران"
+       },
+       "province": {
+        "id": 17,
+        "title": "تهران"
+       },
+       "id": 1087,
+       "title": "شمال"
+      },
+      {
+       "urlParameter": "tehran-jonob",
+       "city": {
+        "id": 320,
+        "title": "تهران"
+       },
+       "province": {
+        "id": 17,
+        "title": "تهران"
+       },
+       "id": 1088,
+       "title": "جنوب"
+      },
+      {
+       "urlParameter": "tehran-gharb",
+       "city": {
+        "id": 320,
+        "title": "تهران"
+       },
+       "province": {
+        "id": 17,
+        "title": "تهران"
+       },
+       "id": 1089,
+       "title": "غرب"
+      },
+      {
+       "urlParameter": "tehran-shargh",
+       "city": {
+        "id": 320,
+        "title": "تهران"
+       },
+       "province": {
+        "id": 17,
+        "title": "تهران"
+       },
+       "id": 1090,
+       "title": "شرق"
+      },
+      {
+       "urlParameter": "tehran-markaz",
+       "city": {
+        "id": 320,
+        "title": "تهران"
+       },
+       "province": {
+        "id": 17,
+        "title": "تهران"
+       },
+       "id": 1091,
+       "title": "مرکز"
+      },
+      {
+       "urlParameter": "tehran-shomalgharbi",
+       "city": {
+        "id": 320,
+        "title": "تهران"
+       },
+       "province": {
+        "id": 17,
+        "title": "تهران"
+       },
+       "id": 1092,
+       "title": "شمال غربی"
+      },
+      {
+       "urlParameter": "tehran-shomalsharghi",
+       "city": {
+        "id": 320,
+        "title": "تهران"
+       },
+       "province": {
+        "id": 17,
+        "title": "تهران"
+       },
+       "id": 1093,
+       "title": "شمال شرقی"
+      },
+      {
+       "urlParameter": "tehran-jonobgharbi",
+       "city": {
+        "id": 320,
+        "title": "تهران"
+       },
+       "province": {
+        "id": 17,
+        "title": "تهران"
+       },
+       "id": 1094,
+       "title": "جنوب غربی"
+      },
+      {
+       "urlParameter": "tehran-jonobsharghi",
+       "city": {
+        "id": 320,
+        "title": "تهران"
+       },
+       "province": {
+        "id": 17,
+        "title": "تهران"
+       },
+       "id": 1095,
+       "title": "جنوب شرقی"
+      }
+     ],
+     "id": 231,
+     "title": "تهران"
+    }
+   ],
+   "id": 17,
+   "title": "تهران"
+  },
+  {
+   "children": [
+    {
+     "urlParameter": "all-cities-of-isfahan",
+     "province": {
+      "id": 14,
+      "title": "اصفهان"
+     },
+     "regionGroups": [],
+     "id": 5,
+     "title": "تمامی شهرهای اصفهان"
+    },
+    {
+     "urlParameter": "isfahan",
+     "province": {
+      "id": 14,
+      "title": "اصفهان"
+     },
+     "regionGroups": [],
+     "id": 121,
+     "title": "اصفهان"
+    }
+   ],
+   "id": 14,
+   "title": "اصفهان"
+  }
+ ]
+}

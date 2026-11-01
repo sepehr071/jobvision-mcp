@@ -1,0 +1,401 @@
+{
+ "traceId": null,
+ "isSuccess": true,
+ "statusCode": 0,
+ "message": "ok",
+ "data": {
+  "id": 1533757,
+  "title": "برنامه نویس Python",
+  "description": "<div dir=\"rtl\" style=\"text-align: right\"><strong>شرح شغل و وظایف</strong><br>ما در چابکان دنبال یک نفر هم‌تیمی توانمند و مسئولیت‌پذیر برای توسعه و بهبود محصولات و سرویس‌های خود هستیم. اگر به برنامه‌نویسی Python و Django علاقه‌مند هستید و دوست دارید در یک تیم فنی پویا روی پروژه‌های واقعی حوزه هاستینگ، سرور و زیرساخت ابری کار کنید، رزومه خودتون رو برامون بفرستید.<br><strong>شرایط فنی</strong><br>تجربه کار با Python/Django<br>تجربه کار با Git<br>تجربه بهینه‌سازی و بهبود کارایی نرم‌افزارهایی که با Python نوشته شدند<br>تجربه کار با پایگاه‌های داده SQL و NoSQL<br>تجربه نوشتن Unit Test<br>تجربه کار با Docker و آشنایی با CI/CD<br>آشنایی با REST API و Web Service و مفاهیم آن‌ها<br>",
+  "version": 20,
+  "isPersian": true,
+  "insightApplicationCount": null,
+  "company": {
+   "id": 19791,
+   "name": {
+    "titleFa": "چابکان",
+    "titleEn": "chabokan"
+   },
+   "brand": {
+    "titleFa": "",
+    "titleEn": ""
+   },
+   "description": {
+    "titleFa": "داستان ما از کجا شروع شد\r\nداستان از اون جایی شروع شد که وب سایت هایی که نیاز به بستر میزبانی داشتن دیگه نیازشون با Cpanel و غیره بر طرف نمی شد از طرفی هم این سیستم ها فقط یکسری از زبان های برنامه نویسی ساپورت میکردن، برای همین نیاز بود تا سرور های مجازی یا اختصاصی تهیه بشه که اونا هم دردسر های خودشونو داشتن. بعد از سال ها زندگی کردن با این مشکلات و پیچیدگی ها تصمیم گرفتیم با استفاده از علوم بروز دنیای تکنولوژی محدودیت هارو کنار برنیم و یک بستر برای میزبانی ارائه دهیم تا مشکلات و پیچیدگی های قدیم را نداشته باشد تا شما با تمرکز بیشتری روی کسب و کارتان نتایج بهتری را بسازید.\r\n\r\nچرا چابکان را کلید زدیم ؟\r\nپلتفرم ابری چابکان در نظر دارد که با استفاده از علوم بین رشته ای نرم افزار و شبکه بستری را برای برنامه نویسان و صاحبان کسب و کار های آنلاین پدید بیاورد که استقرار و راه اندازی و استفاده از سرویس هایی که در بستر اینترنت قابل پیاده سازی هستند را آسان تر و کاربردی تر و در عین حال با امنیت بیشتر در اختیار همراهان خود قرار دهد تا آنان بتوانند بدون دغدغه های استقرار تمرکز هرچه بیشتر خود را روی محصولات خود معطوف کنند.",
+    "titleEn": ""
+   },
+   "productsOrServices": {
+    "titleFa": "شرکت چابکان ارائه دهنده برترین و پیشرفته ترین محصولات ابری (cloud) که با استفاده از جدیدترین تکنولوژی ها محصولاتی نظیر Paas , Saas , DBaas را در اختیار برنامه نویسان و صاحبان کسب و کار های اینترنتی گذاشته است تا با استفاده از این روش دغدغه و مشکلات میزبانی را برای آنان برطرف کند تا بتوانند محصولاتی با کیفیت و پایداری بیشتر را در اختیار مشتریان خود قرار دهند. امیدواریم بتوانیم با کمک شما در این راه یاری رسان کسب و کار های اینترنتی باشیم.",
+    "titleEn": ""
+   },
+   "shortDescription": {
+    "titleFa": "پلتفرم ابری چابکان ارائه دهنده برترین محصولات ابری",
+    "titleEn": ""
+   },
+   "establishmentYear": 1399,
+   "hasPicture": true,
+   "hasCsrBadge": false,
+   "website": "chabokan.net",
+   "companyLink": "/companies/19791/استخدام-چابکان",
+   "logoUrl": "https://fileapi.jobvision.ir/api/v1.0/files/getimage?fileid=141753&width=80&height=80",
+   "headerImageLink": "https://fileapi.jobvision.ir/StaticFiles/Employer/DefaultImages/default-companyHeader.jpeg?v=20231122",
+   "size": {
+    "id": 102,
+    "title": "11 تا 50 نفر",
+    "titleFa": "11 تا 50 نفر",
+    "titleEn": "11 - 50 employees"
+   },
+   "ownershipType": {
+    "id": 111,
+    "title": null,
+    "titleFa": "خصوصی",
+    "titleEn": "Privately held"
+   },
+   "companyType": {
+    "id": 108,
+    "title": null,
+    "titleFa": "شرکت ایرانی دارای مشتریان داخلی",
+    "titleEn": "Iranian company dealing only with Iranian entities"
+   },
+   "benefits": [
+    {
+     "id": 116,
+     "title": "وام",
+     "titleFa": "وام",
+     "titleEn": "Loan"
+    },
+    {
+     "id": 117,
+     "title": "پاداش",
+     "titleFa": "پاداش",
+     "titleEn": "Bonus"
+    },
+    {
+     "id": 118,
+     "title": "پورسانت",
+     "titleFa": "پورسانت",
+     "titleEn": "Commision"
+    },
+    {
+     "id": 157,
+     "title": "امریه‌ی سربازی",
+     "titleFa": "امریه‌ی سربازی",
+     "titleEn": "Military Service Option"
+    },
+    {
+     "id": 230,
+     "title": "ساعت کاری منعطف",
+     "titleFa": "ساعت کاری منعطف",
+     "titleEn": "Flexible working hours\r\n"
+    },
+    {
+     "id": 243,
+     "title": "سهام تشویقی",
+     "titleFa": "سهام تشویقی",
+     "titleEn": "Employee stock ownership\r\n"
+    },
+    {
+     "id": 244,
+     "title": "بسته ها و هدایای مناسبتی",
+     "titleFa": "بسته ها و هدایای مناسبتی",
+     "titleEn": "Occasional packages and gifts\r\n"
+    }
+   ],
+   "industries": [
+    {
+     "id": 50,
+     "title": null,
+     "titleFa": "فناوری اطلاعات / نرم افزار و سخت افزار",
+     "titleEn": "IT / Software / Hardware"
+    }
+   ],
+   "hasCompanyBranding": false,
+   "companyBrandingInfo": {
+    "hasBranding": false,
+    "hasStatistics": false,
+    "hasHireSteps": false,
+    "hasTeamMembers": false,
+    "hasSuccessStories": false,
+    "hasMedia": false
+   },
+   "hasAnyOtherActiveJobPosts": true,
+   "isGovernmentalCompany": false,
+   "companyScore": null
+  },
+  "location": {
+   "country": {
+    "id": 1,
+    "title": null,
+    "titleFa": "ایران",
+    "titleEn": "Iran"
+   },
+   "province": {
+    "id": 17,
+    "title": null,
+    "titleFa": "تهران",
+    "titleEn": "Tehran"
+   },
+   "city": {
+    "citySize": 4,
+    "citySizeGroupId": 1,
+    "province": {
+     "id": 17,
+     "title": null,
+     "titleFa": "تهران",
+     "titleEn": "Tehran"
+    },
+    "urlTitle": "",
+    "id": 320,
+    "title": null,
+    "titleFa": "تهران",
+    "titleEn": "Tehran"
+   },
+   "regionGroup": {
+    "id": 3,
+    "title": null,
+    "titleFa": "غرب",
+    "titleEn": "West"
+   },
+   "region": {
+    "id": 417,
+    "title": null,
+    "titleFa": "آیت الله کاشانی",
+    "titleEn": "Ayatollah Kashani"
+   }
+  },
+  "userJobPostInfo": null,
+  "jobFairInfo": {
+   "isApplicable": true,
+   "isJobFair": false
+  },
+  "jobCategories": [
+   {
+    "id": 30,
+    "title": null,
+    "titleFa": "توسعه نرم افزار و برنامه نویسی",
+    "titleEn": "IT - Software Development (Web,Moblie,…)"
+   }
+  ],
+  "workType": {
+   "id": 120,
+   "title": null,
+   "titleFa": "تمام وقت",
+   "titleEn": "Full Time"
+  },
+  "seniorityLevel": {
+   "id": 97,
+   "title": null,
+   "titleFa": "کارشناس",
+   "titleEn": "Specialist"
+  },
+  "salary": null,
+  "industry": {
+   "id": 50,
+   "title": "فناوری اطلاعات / نرم افزار و سخت افزار",
+   "titleFa": "فناوری اطلاعات / نرم افزار و سخت افزار",
+   "titleEn": "IT / Software / Hardware"
+  },
+  "gender": {
+   "id": 140,
+   "title": null,
+   "titleFa": "ترجیحاً آقا",
+   "titleEn": "Preferred Men"
+  },
+  "benefits": [
+   {
+    "id": 116,
+    "title": "وام",
+    "titleFa": "وام",
+    "titleEn": "Loan"
+   },
+   {
+    "id": 117,
+    "title": "پاداش",
+    "titleFa": "پاداش",
+    "titleEn": "Bonus"
+   },
+   {
+    "id": 118,
+    "title": "پورسانت",
+    "titleFa": "پورسانت",
+    "titleEn": "Commision"
+   },
+   {
+    "id": 157,
+    "title": "امریه‌ی سربازی",
+    "titleFa": "امریه‌ی سربازی",
+    "titleEn": "Military Service Option"
+   },
+   {
+    "id": 230,
+    "title": "ساعت کاری منعطف",
+    "titleFa": "ساعت کاری منعطف",
+    "titleEn": "Flexible working hours\r\n"
+   },
+   {
+    "id": 243,
+    "title": "سهام تشویقی",
+    "titleFa": "سهام تشویقی",
+    "titleEn": "Employee stock ownership\r\n"
+   },
+   {
+    "id": 244,
+    "title": "بسته ها و هدایای مناسبتی",
+    "titleFa": "بسته ها و هدایای مناسبتی",
+    "titleEn": "Occasional packages and gifts\r\n"
+   }
+  ],
+  "academicRequirements": null,
+  "softwareRequirements": [
+   {
+    "software": {
+     "id": 276,
+     "title": null,
+     "titleFa": "Python",
+     "titleEn": "Python"
+    },
+    "skill": {
+     "id": 124,
+     "title": "متوسط",
+     "titleFa": "متوسط",
+     "titleEn": "Intermediate"
+    }
+   },
+   {
+    "software": {
+     "id": 344,
+     "title": null,
+     "titleFa": "Django",
+     "titleEn": "Django"
+    },
+    "skill": {
+     "id": 124,
+     "title": "متوسط",
+     "titleFa": "متوسط",
+     "titleEn": "Intermediate"
+    }
+   },
+   {
+    "software": {
+     "id": 340,
+     "title": null,
+     "titleFa": "Git",
+     "titleEn": "Git"
+    },
+    "skill": {
+     "id": 124,
+     "title": "متوسط",
+     "titleFa": "متوسط",
+     "titleEn": "Intermediate"
+    }
+   },
+   {
+    "software": {
+     "id": 348,
+     "title": null,
+     "titleFa": "REST API",
+     "titleEn": "REST API"
+    },
+    "skill": {
+     "id": 123,
+     "title": "مقدماتی",
+     "titleFa": "مقدماتی",
+     "titleEn": "Basic"
+    }
+   },
+   {
+    "software": {
+     "id": 282,
+     "title": null,
+     "titleFa": "HTML & CSS",
+     "titleEn": "HTML & CSS"
+    },
+    "skill": {
+     "id": 124,
+     "title": "متوسط",
+     "titleFa": "متوسط",
+     "titleEn": "Intermediate"
+    }
+   },
+   {
+    "software": {
+     "id": 300,
+     "title": null,
+     "titleFa": "Node.js",
+     "titleEn": "Node.js"
+    },
+    "skill": {
+     "id": 123,
+     "title": "مقدماتی",
+     "titleFa": "مقدماتی",
+     "titleEn": "Basic"
+    }
+   },
+   {
+    "software": {
+     "id": 571,
+     "title": null,
+     "titleFa": "Docker",
+     "titleEn": "Docker"
+    },
+    "skill": {
+     "id": 123,
+     "title": "مقدماتی",
+     "titleFa": "مقدماتی",
+     "titleEn": "Basic"
+    }
+   },
+   {
+    "software": {
+     "id": 417,
+     "title": null,
+     "titleFa": "Redis",
+     "titleEn": "Redis"
+    },
+    "skill": {
+     "id": 123,
+     "title": "مقدماتی",
+     "titleFa": "مقدماتی",
+     "titleEn": "Basic"
+    }
+   }
+  ],
+  "languageRequirements": null,
+  "skills": [],
+  "workDays": "شنبه تا چهارشنبه 8تا17 (2ساعت شناوری)",
+  "businessTrip": null,
+  "requiredRelatedExperienceYears": null,
+  "requiredAcademicHistory": null,
+  "requiredKnowledge": null,
+  "requiredAgeMin": 24,
+  "requiredAgeMax": 40,
+  "shouldDoneMilitaryService": false,
+  "isInternship": false,
+  "isRemote": false,
+  "suitableForDisabled": false,
+  "isUrgent": true,
+  "indexable": true,
+  "typeId": 1,
+  "linkOutAddress": null,
+  "labels": [],
+  "isBlueCollarJob": false,
+  "hasSalaryHistogram": false,
+  "firstActivationTime": {
+   "passedDays": 35,
+   "beautifyFa": "35 روز پیش",
+   "beautifyEn": "35 days ago",
+   "date": "2026-09-26T12:21:13Z"
+  },
+  "activationTime": {
+   "passedDays": 35,
+   "beautifyFa": "35 روز پیش",
+   "beautifyEn": "35 days ago",
+   "date": "2026-09-26T12:21:13Z"
+  },
+  "expireTime": {
+   "date": "2026-11-25T12:21:13Z",
+   "daysLeftUntil": 25
+  },
+  "isExpired": false
+ }
+}

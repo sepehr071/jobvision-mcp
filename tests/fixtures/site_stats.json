@@ -1,0 +1,12 @@
+{
+"traceId": null,
+"isSuccess": true,
+"statusCode": 0,
+"message": "عملیات با موفقیت انجام شد",
+"data": {
+"candidatesCount": 5630000,
+"activeCompaniesCount": 152600,
+"activeJobPostsCount": 64000,
+"employmentCount": 312000
+}
+}

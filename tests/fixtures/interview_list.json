@@ -1,0 +1,47 @@
+{
+"traceId": null,
+"isSuccess": true,
+"statusCode": 0,
+"message": "عملیات با موفقیت انجام شد",
+"data": {
+"pageNumber": 1,
+"pageSize": 2,
+"pageCount": 716,
+"recordCount": 1431,
+"currentPageRecordCount": 2,
+"data": [
+{
+"jobPostTitle": "سرپرست لجستیک ",
+"participationTimeStr": "پاییز 1405",
+"score": 5,
+"scoreReason": "خوشامدگویی گرم و استقبال مناسبی انجام شد.",
+"isPositive": true,
+"evaluationTypes": [
+"مصاحبه حضوری",
+"آزمون هوش(IQ)",
+"آزمون هوش هیجانی"
+],
+"difficultyLevelTitle": "سخت",
+"difficultyLevelValue": 4,
+"duration": "کمتر از یک هفته",
+"steps": null
+},
+{
+"jobPostTitle": "کارشناس بازرگانی",
+"participationTimeStr": "پاییز 1405",
+"score": 5,
+"scoreReason": "خوشامدگویی گرم و استقبال مناسبی انجام شد.",
+"isPositive": true,
+"evaluationTypes": [
+"مصاحبه حضوری",
+"آزمون هوش(IQ)",
+"آزمون هوش هیجانی"
+],
+"difficultyLevelTitle": "خیلی سخت",
+"difficultyLevelValue": 5,
+"duration": "کمتر از یک هفته",
+"steps": null
+}
+]
+}
+}

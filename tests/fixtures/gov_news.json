@@ -1,0 +1,78 @@
+{
+"traceId": null,
+"isSuccess": true,
+"statusCode": 0,
+"message": "عملیات با موفقیت انجام شد",
+"data": {
+"headContent": null,
+"topContents": null,
+"otherContents": null,
+"collection": {
+"id": 1,
+"title": "استخدام بانک‌ها",
+"pageRoute": "بانک"
+},
+"contents": {
+"pageNumber": 1,
+"pageSize": 16,
+"pageCount": 4,
+"recordCount": 53,
+"currentPageRecordCount": 16,
+"data": [
+{
+"writtenAtStr": "3 روز پیش",
+"shortDescriptionRaw": "استخدام بانک دی 1405 | شرایط و نحوه ثبتنام",
+"id": 730,
+"companyIds": [
+70629
+],
+"companyTitles": null,
+"typeId": 1,
+"collectionId": 1,
+"title": "استخدام بانک دی 1405 | شرایط و نحوه ثبت‌نام",
+"shortDescription": "<p>استخدام بانک دی 1405 | شرایط و نحوه ثبت&zwnj;نام</p>",
+"description": "<p>بانک دی به&zwnj;منظور تأمین نیروی انسانی موردنیاز خود، از متقاضیان واجد شرایط برای همکاری دعوت می&zwnj;کند. جذب نیروی انسانی در این بانک از طریق انتشار فراخوان دعوت به همکاری و دریافت رزومه انجام می&zwnj;شود و متقاضیان می&zwnj;توانند با مراجعه به سامانه استخدام بانک دی، اطلاعات و مشخصات خود را ثب",
+"pageRoute": "-بانک-دی",
+"writtenAt": "2026-10-28T11:01:51.6129881Z",
+"companyLogoUrl": "https://fileapi.jobvision.ir/api/v1.0/files/getimage?fileid=26458665"
+},
+{
+"writtenAtStr": "1 هفته پیش",
+"shortDescriptionRaw": "استخدام بانک سینا 1405 | شرایط ثبتنام و تاریخ آزمون",
+"id": 726,
+"companyIds": [
+75785
+],
+"companyTitles": null,
+"typeId": 2,
+"collectionId": 1,
+"title": "استخدام بانک سینا 1405 | شرایط ثبت‌نام و تاریخ آزمون",
+"shortDescription": "<p>استخدام بانک سینا 1405 | شرایط ثبت&zwnj;نام و تاریخ آزمون</p>\r\n<h2>&nbsp;</h2>",
+"description": "<p data-pm-slice=\"1 1 []\">بانک سینا به&zwnj;منظور تکمیل نیروی انسانی و ارتقای کیفیت خدمات مالی و بانکی، از متقاضیان واجد شرایط در سه رده شغلی بانکدار شعب، بانکدار حقوقی و بانکدار مهندسی ساختمان استخدام می&zwnj;کند.</p>\r\n<p>به گزارش آگهی استخدام بانک سینا، جذب نیرو از میان داوطلبان بومی و ساکن شهرهای",
+"pageRoute": "-بانک-سینا-1405",
+"writtenAt": "2026-10-24T15:02:14.637Z",
+"companyLogoUrl": "https://fileapi.jobvision.ir/api/v1.0/files/getimage?fileid=26458852"
+},
+{
+"writtenAtStr": "1 هفته پیش",
+"shortDescriptionRaw": "استخدام بانک ملت 1405 | احتمال جذب 1500 نیروی جدید تا پایان سال",
+"id": 724,
+"companyIds": [
+62860
+],
+"companyTitles": null,
+"typeId": 1,
+"collectionId": 1,
+"title": "استخدام بانک ملت 1405 | احتمال جذب 1500 نیروی جدید تا پایان سال",
+"shortDescription": "<p>استخدام بانک ملت 1405 | احتمال جذب 1500 نیروی جدید تا پایان سال</p>",
+"description": "<p>معاون مدیرعامل بانک ملت از احتمال جذب نیروهای جدید در این بانک تا پایان سال 1405 خبر داد. بر اساس اظهارات مطرح&zwnj;شده، استخدام نیروهای جدید پس از اصلاح ساختار سازمانی، بررسی نیازهای تخصصی واحدهای مختلف و تعیین ظرفیت&zwnj;های موردنیاز انجام خواهد شد.</p>\r\n<p>به گزارش بازارکار، دکتر هادی حطیم، مع",
+"pageRoute": "احتمال-جذب-نیرو-در-بانک-ملت",
+"writtenAt": "2026-10-24T14:04:48.147Z",
+"companyLogoUrl": "https://fileapi.jobvision.ir/api/v1.0/files/getimage?fileid=26459555"
+}
+]
+},
+"companiesWithContents": null,
+"lastUpdatedAtStr": "شنبه، 9 آبان 05"
+}
+}

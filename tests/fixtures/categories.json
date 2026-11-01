@@ -1,0 +1,36 @@
+{
+ "traceId": null,
+ "isSuccess": true,
+ "statusCode": 0,
+ "message": "ok",
+ "data": [
+  {
+   "urlTitle": "sales",
+   "id": 9,
+   "title": "فروش و بازاریابی - سطوح کارشناسی و مدیریتی",
+   "titleFa": "فروش و بازاریابی - سطوح کارشناسی و مدیریتی",
+   "titleEn": "Sales and Marketing - Specialist and Manager"
+  },
+  {
+   "urlTitle": "developer",
+   "id": 30,
+   "title": "توسعه نرم افزار و برنامه نویسی",
+   "titleFa": "توسعه نرم افزار و برنامه نویسی",
+   "titleEn": "IT - Software Development (Web,Moblie,…)"
+  },
+  {
+   "urlTitle": "software-qa",
+   "id": 261,
+   "title": "تست نرم افزار",
+   "titleFa": "تست نرم افزار",
+   "titleEn": "Software Quality Assurance"
+  },
+  {
+   "urlTitle": "data-science",
+   "id": 260,
+   "title": "علوم داده / هوش مصنوعی",
+   "titleFa": "علوم داده / هوش مصنوعی",
+   "titleEn": "Data Science / AI"
+  }
+ ]
+}

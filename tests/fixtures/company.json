@@ -1,0 +1,120 @@
+{
+ "traceId": null,
+ "isSuccess": true,
+ "statusCode": 0,
+ "message": "ok",
+ "data": {
+  "company": {
+   "id": 19791,
+   "title": "چابکان",
+   "titleFa": "چابکان",
+   "titleEn": "chabokan"
+  },
+  "hasPicture": true,
+  "hasCsrBadge": false,
+  "hasCompanyBranding": false,
+  "hasInterviewFeedback": true,
+  "companyBrandingInfo": {
+   "hasBranding": false,
+   "hasStatistics": false,
+   "hasHireSteps": false,
+   "hasTeamMembers": false,
+   "hasSuccessStories": false,
+   "hasMedia": false
+  },
+  "activeJobPostCount": 3,
+  "interviewFeedbackCount": 6,
+  "jobPostCount": 52,
+  "industries": [
+   {
+    "id": 50,
+    "title": null,
+    "titleFa": "فناوری اطلاعات / نرم افزار و سخت افزار",
+    "titleEn": "IT / Software / Hardware"
+   }
+  ],
+  "brandsFa": "",
+  "brandsEn": "",
+  "cityEn": "Tehran",
+  "cityFa": "تهران",
+  "descriptionEn": "",
+  "descriptionFa": "داستان ما از کجا شروع شد\r\nداستان از اون جایی شروع شد که وب سایت هایی که نیاز به بستر میزبانی داشتن دیگه نیازشون با Cpanel و غیره بر طرف نمی شد از طرفی هم این سیستم ها فقط یکسری از زبان های برنامه نویسی ساپورت میکردن، برای همین نیاز بود تا سرور های مجازی یا اختصاصی تهیه بشه که اونا هم دردسر های خودشونو داشتن. بعد از سال ها زندگی کردن با این مشکلات و پیچیدگی ها تصمیم گرفتیم با استفاده از علوم بروز دنیای تکنولوژی محدودیت هارو کنار برنیم و یک بستر برای میزبانی ارائه دهیم تا مشکلات و پیچیدگی های قدیم را نداشته باشد تا شما با تمرکز بیشتری روی کسب و کارتان نتایج بهتری را بسازید.\r\n\r\nچرا چابکان را کلید زدیم ؟\r\nپلتفرم ابری چابکان در نظر دارد که با استفاده از علوم بین رشته ای نرم افزار و شبکه بستری را برای برنامه نویسان و صاحبان کسب و کار های آنلاین پدید بیاورد که استقرار و راه اندازی و استفاده از سرویس هایی که در بستر اینترنت قابل پیاده سازی هستند را آسان تر و کاربردی تر و در عین حال با امنیت بیشتر در اختیار همراهان خود قرار دهد تا آنان بتوانند بدون دغدغه های استقرار تمرکز هرچه بیشتر خود را روی محصولات خود معطوف کنند.",
+  "establishmentYear": "1399",
+  "productsOrServicesEn": "",
+  "productsOrServicesFa": "شرکت چابکان ارائه دهنده برترین و پیشرفته ترین محصولات ابری (cloud) که با استفاده از جدیدترین تکنولوژی ها محصولاتی نظیر Paas , Saas , DBaas را در اختیار برنامه نویسان و صاحبان کسب و کار های اینترنتی گذاشته است تا با استفاده از این روش دغدغه و مشکلات میزبانی را برای آنان برطرف کند تا بتوانند محصولاتی با کیفیت و پایداری بیشتر را در اختیار مشتریان خود قرار دهند. امیدواریم بتوانیم با کمک شما در این راه یاری رسان کسب و کار های اینترنتی باشیم.",
+  "provinceEn": "Tehran",
+  "provinceFa": "تهران",
+  "websiteAddress": "chabokan.net",
+  "companyOwnership": {
+   "id": 111,
+   "title": null,
+   "titleFa": "خصوصی",
+   "titleEn": "Privately held"
+  },
+  "companySize": {
+   "id": 102,
+   "title": "11 تا 50 نفر",
+   "titleFa": "11 تا 50 نفر",
+   "titleEn": "11 - 50 employees"
+  },
+  "companyType": {
+   "id": 108,
+   "title": null,
+   "titleFa": "شرکت ایرانی دارای مشتریان داخلی",
+   "titleEn": "Iranian company dealing only with Iranian entities"
+  },
+  "benefits": [
+   {
+    "id": 116,
+    "title": "وام",
+    "titleFa": "وام",
+    "titleEn": "Loan"
+   },
+   {
+    "id": 117,
+    "title": "پاداش",
+    "titleFa": "پاداش",
+    "titleEn": "Bonus"
+   },
+   {
+    "id": 118,
+    "title": "پورسانت",
+    "titleFa": "پورسانت",
+    "titleEn": "Commision"
+   },
+   {
+    "id": 157,
+    "title": "امریه‌ی سربازی",
+    "titleFa": "امریه‌ی سربازی",
+    "titleEn": "Military Service Option"
+   },
+   {
+    "id": 230,
+    "title": "ساعت کاری منعطف",
+    "titleFa": "ساعت کاری منعطف",
+    "titleEn": "Flexible working hours\r\n"
+   },
+   {
+    "id": 243,
+    "title": "سهام تشویقی",
+    "titleFa": "سهام تشویقی",
+    "titleEn": "Employee stock ownership\r\n"
+   },
+   {
+    "id": 244,
+    "title": "بسته ها و هدایای مناسبتی",
+    "titleFa": "بسته ها و هدایای مناسبتی",
+    "titleEn": "Occasional packages and gifts\r\n"
+   }
+  ],
+  "shortDescriptionFa": "پلتفرم ابری چابکان ارائه دهنده برترین محصولات ابری",
+  "shortDescriptionEn": "",
+  "logoLink": "https://fileapi.jobvision.ir/api/v1.0/files/getimage?fileid=141753&width=119&height=119",
+  "headerImageLink": "https://fileapi.jobvision.ir/StaticFiles/Employer/DefaultImages/default-companyHeader.jpeg?v=20231122",
+  "mobileHeaderImageLink": "https://fileapi.jobvision.ir/StaticFiles/Employer/DefaultImages/default-companyHeader-mobile.jpeg?v=20231122",
+  "logoFileId": 141753,
+  "headerFileId": null,
+  "isGovernmentalCompany": false,
+  "companyScore": null
+ }
+}

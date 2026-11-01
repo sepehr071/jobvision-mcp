@@ -1,0 +1,122 @@
+{
+"traceId": null,
+"isSuccess": true,
+"statusCode": 0,
+"message": "عملیات با موفقیت انجام شد",
+"data": {
+"countOfFeedback": 1431,
+"countOfQuestions": 1,
+"score": {
+"title": "عالی",
+"value": 4.845849802371541
+},
+"difficulty": {
+"title": "سخت",
+"value": 3.9675889328063243
+},
+"duration": "4 روز ",
+"mostFrequentEvaluations": [
+{
+"title": "مصاحبه حضوری",
+"count": 1143,
+"displayOrder": 1
+},
+{
+"title": "گواهی عدم سو پیشینه",
+"count": 357,
+"displayOrder": 2
+},
+{
+"title": "آزمون‌های مهارت‌سنجی متناسب با این شغل",
+"count": 246,
+"displayOrder": 3
+},
+{
+"title": "آزمون هوش هیجانی",
+"count": 187,
+"displayOrder": 4
+}
+],
+"scoreDistribution": [
+{
+"title": "5",
+"count": 1183,
+"displayOrder": 1
+},
+{
+"title": "4",
+"count": 28,
+"displayOrder": 2
+},
+{
+"title": "3",
+"count": 20,
+"displayOrder": 3
+},
+{
+"title": "2",
+"count": 9,
+"displayOrder": 4
+},
+{
+"title": "1",
+"count": 25,
+"displayOrder": 5
+}
+],
+"difficultyDistribution": [
+{
+"title": "خیلی آسان",
+"count": 34,
+"displayOrder": 1
+},
+{
+"title": "آسان",
+"count": 15,
+"displayOrder": 2
+},
+{
+"title": "متوسط",
+"count": 181,
+"displayOrder": 3
+},
+{
+"title": "سخت",
+"count": 763,
+"displayOrder": 4
+},
+{
+"title": "خیلی سخت",
+"count": 272,
+"displayOrder": 5
+}
+],
+"durationDistribution": [
+{
+"title": "کمتر از یک هفته",
+"count": 1133,
+"displayOrder": 1
+},
+{
+"title": "یک تا دو هفته",
+"count": 13,
+"displayOrder": 2
+},
+{
+"title": "دو هفته تا یک ماه",
+"count": 4,
+"displayOrder": 3
+},
+{
+"title": "یک تا دو ماه",
+"count": 4,
+"displayOrder": 4
+},
+{
+"title": "بیشتر از دو ماه",
+"count": 1,
+"displayOrder": 5
+}
+]
+}
+}

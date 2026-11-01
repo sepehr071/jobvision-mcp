@@ -1,0 +1,80 @@
+{
+"traceId": null,
+"isSuccess": true,
+"statusCode": 0,
+"message": "عملیات با موفقیت انجام شد",
+"data": {
+"currentPageNumber": 1,
+"currentPageSize": 100,
+"totalCount": 98,
+"orderBy": 1,
+"items": [
+{
+"id": 87,
+"pageRoute": "mining-engineer",
+"bannerImage": "https://fileapi.jobvision.ir/public-files/career-guide/mining-engineer.jpg",
+"title": "مهندس معدن",
+"totalSatisfactionScore": 4.333333333333333,
+"jobPostCount": 410,
+"medianSalary": 60000000,
+"minMedianSalary": 59266666,
+"maxMedianSalary": 70699999
+},
+{
+"id": 100,
+"pageRoute": "reporter",
+"bannerImage": "https://fileapi.jobvision.ir/public-files/career-guide/reporter.jpg",
+"title": "خبرنگار",
+"totalSatisfactionScore": 4.333333333333333,
+"jobPostCount": 50,
+"medianSalary": 30000000,
+"minMedianSalary": 28822222,
+"maxMedianSalary": 33033333
+},
+{
+"id": 99,
+"pageRoute": "physician-assistant",
+"bannerImage": "https://fileapi.jobvision.ir/public-files/career-guide/physician-assistant.jpg",
+"title": "دستیار پزشک",
+"totalSatisfactionScore": 4.25,
+"jobPostCount": 560,
+"medianSalary": 28000000,
+"minMedianSalary": 24000000,
+"maxMedianSalary": 30000000
+},
+{
+"id": 88,
+"pageRoute": "materials-engineer",
+"bannerImage": "https://fileapi.jobvision.ir/public-files/career-guide/materials-engineer.jpg",
+"title": "مهندس مواد (متالورژی)",
+"totalSatisfactionScore": 4,
+"jobPostCount": 2080,
+"medianSalary": 47000000,
+"minMedianSalary": 36250000,
+"maxMedianSalary": 47000000
+},
+{
+"id": 63,
+"pageRoute": "business-development-manager",
+"bannerImage": "https://fileapi.jobvision.ir/public-files/career-guide/business-development-manager.jpg",
+"title": "مدیر توسعه کسب و کار",
+"totalSatisfactionScore": 3.9661016949152543,
+"jobPostCount": 220,
+"medianSalary": 100000000,
+"minMedianSalary": 75000000,
+"maxMedianSalary": 100000000
+},
+{
+"id": 55,
+"pageRoute": "angular-developer",
+"bannerImage": "https://fileapi.jobvision.ir/public-files/career-guide/angular-developer.jpg",
+"title": "برنامه‌نویس انگولار",
+"totalSatisfactionScore": 3.9594594594594597,
+"jobPostCount": 70,
+"medianSalary": 60000000,
+"minMedianSalary": 59800000,
+"maxMedianSalary": 70200000
+}
+]
+}
+}
