@@ -71,12 +71,16 @@ async def jv_market(
     city: City = None,
     category: Category = None,
     top: Annotated[int, Field(ge=1, le=100, description="Show only the largest N groups.")] = 15,
+    max_requests: Annotated[
+        int, Field(ge=1, le=77, description="Most requests one call may make for a split (category has 77 groups).")
+    ] = 77,
 ) -> dict[str, Any]:
     """Count open Jobvision ads per category, province, work type, seniority, experience, pay band or age.
 
     Use for market questions ("which categories hire most in Shiraz", "how many python ads per province"). Totals
     for the whole site come with every call. keyword, city and category narrow the counted ads; a split by category
-    or province makes 77 or 32 small requests (cached for two minutes), the other splits at most 10. Pay bands
+    or province makes 77 or 32 small requests (cached for two minutes), the other splits at most 10. Lower
+    `max_requests` to cap them; a cut-short split then has `groups_checked` below `groups_total`. Pay bands
     count only ads that show pay; work types can overlap, so groups may add up to more than the total. Then use jv_search with the same filters to read the ads.
     """
     stats = await get("/Statistics/GetSiteStatistics", ttl=DAY)
@@ -94,13 +98,19 @@ async def jv_market(
     out["filters_total"] = await _count(base)
     if by == "overall":
         return out
-    splits = await _splits(by)
+    all_splits = await _splits(by)
+    splits = all_splits[:max_requests]
     counts = await asyncio.gather(*(_count({**base, **extra}) for _, _, extra in splits))
     rows = sorted(
         ({"key": k, "name": name, "ads": n} for (k, name, _), n in zip(splits, counts, strict=True)),
         key=lambda r: -r["ads"],
     )
-    out |= {"by": by, "groups": [r for r in rows if r["ads"]][:top], "groups_total": len(rows)}
+    out |= {
+        "by": by,
+        "groups": [r for r in rows if r["ads"]][:top],
+        "groups_total": len(all_splits),
+        "groups_checked": len(rows),
+    }
     return out
 
 

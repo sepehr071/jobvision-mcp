@@ -1,6 +1,6 @@
 [project]
 name = "jobvision-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Unofficial read-only MCP server for Jobvision (jobvision.ir), the Iranian job portal: job search, ads, companies, advertised pay."
 readme = "README.md"
 license = "MIT"
