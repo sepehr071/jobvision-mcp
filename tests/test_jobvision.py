@@ -130,7 +130,7 @@ async def test_company_profile_with_open_jobs(client, api):
     api["/api/v1/Company/Details"] = fixture("company.json")
     api[LIST] = fixture("list.json")
     r = (await client.call_tool("jv_company", {"company_id": 19791, "open_jobs": 3})).structured_content
-    assert r["name"] == "چابکان" and r["size"] == "11 تا 50 نفر" and r["founded"] == "1399"
+    assert r["name"] == "چابکان" and r["size"] == "11 تا 50 نفر" and r["founded"] == 1399
     assert len(r["jobs"]) == 3 and body(api)["companyId"] == 19791 and body(api)["pageSize"] == 3
 
 

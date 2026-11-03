@@ -453,7 +453,7 @@ async def jv_company(
         "type": _title(d.get("companyType")),
         "city": d.get("cityFa"),
         "province": d.get("provinceFa"),
-        "founded": d.get("establishmentYear"),
+        "founded": int(d["establishmentYear"]) if str(d.get("establishmentYear")).isdigit() else None,
         "website": d.get("websiteAddress"),
         "benefits": [_title(b) for b in d.get("benefits") or []],
         "governmental": d.get("isGovernmentalCompany") or None,
