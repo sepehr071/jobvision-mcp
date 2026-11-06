@@ -36,19 +36,18 @@ def _career_row(i: dict) -> dict[str, Any]:
 async def jv_careers(
     query: Annotated[
         str,
-        Field(description="Part of a job title to filter by, e.g. برنامه or engineer. Empty lists all.", max_length=60),
+        Field(description="Part of a job title, e.g. برنامه or engineer. Empty lists all.", max_length=60),
     ] = "",
     sort: Annotated[
         Literal["satisfaction", "salary", "ads"],
-        Field(description="satisfaction (default), salary (highest median) or ads (most open ads)."),
+        Field(description="Rank by satisfaction, salary (highest median) or ads (most open ads)."),
     ] = "satisfaction",
     limit: Annotated[int, Field(ge=1, le=100, description="How many careers to return.")] = 20,
 ) -> dict[str, Any]:
     """Rank the ~100 job titles in Jobvision's career guide by satisfaction, median salary or open ads.
 
-    Use for "which jobs pay the most" or "what does an accountant earn" (median salary, million Toman per month,
-    from Jobvision's own salary survey, so unlike jv_pay_stats it is not limited to ads that show pay). Call
-    jv_career with the `career` value for duties, skills, the salary distribution and how to get into the job.
+    Use for "which jobs pay the most" or "what does an accountant earn": median salary (million Toman per month)
+    from Jobvision's salary survey, not limited to ads showing pay. jv_career takes the `career` value.
     """
     data = await get("/CareerGuide/GetList", {"pageNumber": 1, "pageSize": 100, "orderBy": ORDER[sort]}, ttl=DAY)
     rows = [_career_row(i) for i in data["items"]]
@@ -104,14 +103,13 @@ async def jv_career(
     ],
     city_size: Annotated[
         Literal["all", "tehran", "big-cities", "small-cities"],
-        Field(description="Salary distribution for all cities (default) or one city group."),
+        Field(description="City group of the salary distribution."),
     ] = "all",
 ) -> dict[str, Any]:
     """Get Jobvision's career-guide profile of one job title: salary distribution, demand, duties, skills, path.
 
-    Use after jv_careers. Salaries are million Toman per month from Jobvision's salary survey (histogram bars give the
-    share of participants per pay band). Also returns job-ad growth over the last year, satisfaction scores, the
-    steps to enter the job and neighbouring careers. `search` holds jv_search arguments for the matching open ads.
+    Use after jv_careers. Salaries are million Toman per month (survey; bars = share of participants per band).
+    `search` holds jv_search arguments for the matching open ads.
     """
     route = await _resolve_career(career)
     d = await get("/CareerGuide/GetDetails", {"pageRoute": route}, ttl=DAY)

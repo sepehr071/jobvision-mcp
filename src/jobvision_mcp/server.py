@@ -11,21 +11,10 @@ from mcp.types import ToolAnnotations
 from . import __version__, careers, companies, jobs, market  # noqa: F401  (imports register the tools)
 from .registry import TOOLS
 
-INSTRUCTIONS = """Unofficial, read-only access to Jobvision (جاب\u200cویژن, jobvision.ir), the largest Iranian job portal: the same public job
-ads and company pages its website shows to anyone without an account. Nothing here can log in, apply, save jobs or
-post ads.
+INSTRUCTIONS = """Unofficial, read-only access to Jobvision (جاب\u200cویژن, jobvision.ir), the largest Iranian job portal: the public job ads
+and company pages its website shows without an account. Read-only: no login, applying, saving or posting.
 
-Tools: jv_search (job ads by keyword with filters: city, category, work type, seniority, experience, advertised pay,
-remote, internship, military service, disability-friendly, government sector, posted within; sort newest/relevance/salary), jv_job (one ad in full),
-jv_similar_jobs, jv_company (employer profile and its open ads), jv_pay_stats (advertised pay for a role: median,
-quartiles), jv_suggest (job-title autocomplete), jv_locations (province/city/Tehran-area slugs), jv_options (category,
-industry, benefit and other filter lists), jv_companies (company directory: search by name, filter by province, industry,
-size, rating; ranked by Jobvision score), jv_interviews (candidate interview reports, scores and questions for a company),
-jv_careers (career guide: median salary, satisfaction and open ads for ~100 job titles), jv_career (one job title: salary
-distribution, growth, duties, skills, how to enter), jv_market (open-ad counts per category, province, work type and
-more), jv_government_news (public-sector hiring announcements: banks, ministries, oil and gas...).
-
-Typical flows: "python jobs in Isfahan" -> jv_search("python", city="اصفهان") -> jv_job(id). "Who is hiring this ad?"
+Flows: "python jobs in Isfahan" -> jv_search("python", city="اصفهان") -> jv_job(id). "Who is hiring this ad?"
 -> jv_company(company.id). "What does a data analyst earn?" -> jv_pay_stats("تحلیلگر داده"). "What does an accountant earn in Tehran?" -> jv_career("accountant", city_size="tehran") (survey-based, covers all ads). "Is company X good to interview at?" -> jv_companies("X") -> jv_interviews(id). "Which categories hire most in Shiraz?" -> jv_market(by="category", city="شیراز"). Unknown category or industry
 -> jv_options first. Pay is the monthly range ads advertise, in million Toman; most ads hide it, so it is a
 signal, not what people earn. Dates are ISO UTC. Text is Persian or English as employers wrote it; ad and company

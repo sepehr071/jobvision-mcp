@@ -51,20 +51,23 @@ GOV = Literal[
 SALARY_RANGES = [(1, 10), (2, 15), (4, 25), (5, 40), (6, 60), (8, 100), (9, 150), (10, 200), (11, 300), (12, 999)]
 
 Keyword = Annotated[
-    str, Field(description="Job title or skill, Persian or English, e.g. python, حسابدار, برنامه نویس.", max_length=100)
+    str, Field(description="Job title or skill, Persian or English, e.g. python, حسابدار.", max_length=100)
 ]
 City = Annotated[
     str | None,
     Field(
-        description="City, province or Tehran area, by name (اصفهان, Isfahan) or slug (isfahan, all-cities-of-tehran, tehran-shomal). One place only. See jv_locations."
+        description="One city, province or Tehran area, by name (اصفهان) or slug (isfahan, all-cities-of-tehran). See jv_locations."
     ),
 ]
 Category = Annotated[
     str | None,
-    Field(description="Job category slug or name from jv_options('categories'), e.g. developer, sales, accounting."),
+    Field(description="Category slug or name from jv_options('categories'), e.g. developer."),
 ]
-JobId = Annotated[int, Field(description="Job ad id from jv_search, e.g. 1589935.", ge=1)]
-CompanyId = Annotated[int, Field(description="Company id from a job (company.id), e.g. 19791.", ge=1)]
+SameKeyword = Annotated[str, Field(description="Same as jv_search.", max_length=100)]
+SameCity = Annotated[str | None, Field(description="Same as jv_search.")]
+SameCategory = Annotated[str | None, Field(description="Same as jv_search.")]
+JobId = Annotated[int, Field(description="Job ad id from jv_search.", ge=1)]
+CompanyId = Annotated[int, Field(description="Company id (job company.id or jv_companies).", ge=1)]
 
 
 def _title(x: dict | None) -> str | None:
@@ -251,64 +254,51 @@ async def jv_search(
     keyword: Keyword = "",
     city: City = None,
     category: Category = None,
-    work_type: Annotated[
-        WORK_TYPE | None, Field(description="full-time, part-time or project-based (contract).")
-    ] = None,
+    work_type: Annotated[WORK_TYPE | None, Field(description="project-based = contract.")] = None,
     seniority: Annotated[
         Literal["intern", "worker", "employee", "specialist", "senior-specialist", "manager", "senior-manager", "ceo"]
         | None,
-        Field(
-            description="Level of the role: intern, worker, employee, specialist (کارشناس), senior-specialist, manager (middle), senior-manager, ceo."
-        ),
+        Field(description="Role level; specialist = کارشناس, manager = middle manager."),
     ] = None,
     experience: Annotated[
         Literal["none", "under-2", "2-5", "5-8", "8-12", "over-12"] | None,
-        Field(description="Required years of experience bracket; none means 'no experience needed'."),
+        Field(description="Required experience bracket in years; none = no experience needed."),
     ] = None,
     salary_min: Annotated[
         int | None,
         Field(
-            description="Only ads whose advertised pay reaches at least this many million Toman per month. Ads that hide the pay are left out.",
+            description="Minimum advertised pay, million Toman per month; ads hiding pay are left out.",
             ge=1,
             le=300,
         ),
     ] = None,
-    remote: Annotated[bool, Field(description="Only remote jobs.")] = False,
-    internship: Annotated[bool, Field(description="Only internships.")] = False,
-    military_service: Annotated[
-        bool, Field(description="Only ads offering military-service benefits (امریه).")
-    ] = False,
+    remote: bool = False,
+    internship: bool = False,
+    military_service: Annotated[bool, Field(description="Only ads with military-service benefits (امریه).")] = False,
     industry: Annotated[int | None, Field(description="Industry id from jv_options('industries').")] = None,
     benefit: Annotated[
         int | None, Field(description="Benefit id from jv_options('benefits'), e.g. 116 = loan.")
     ] = None,
     posted_within: Annotated[
         Literal["3d", "1w", "15d", "1m"] | None,
-        Field(description="Only ads posted in the last 3 days, week, 15 days or month."),
+        Field(description="Posted within the last 3 days, week, 15 days or month."),
     ] = None,
     sort: Annotated[
         Literal["newest", "relevance", "salary"],
-        Field(
-            description="newest (default), relevance (best title match) or salary (highest top of the advertised range first)."
-        ),
+        Field(description="salary = highest top of the advertised range first."),
     ] = "newest",
     government: Annotated[
         GOV | None,
-        Field(
-            description="Only government and public-sector ads: all, or one sector (banks, education, ministries, insurance, industry, health, oil-gas, armed-forces, other)."
-        ),
+        Field(description="Only public-sector ads: all or one sector."),
     ] = None,
-    disabled_friendly: Annotated[
-        bool, Field(description="Only ads marked suitable for people with disabilities.")
-    ] = False,
-    page: Annotated[int, Field(ge=1, le=100, description="Page number, 1-based.")] = 1,
-    limit: Annotated[int, Field(ge=1, le=30, description="Ads per page.")] = 10,
+    disabled_friendly: Annotated[bool, Field(description="Only ads suitable for people with disabilities.")] = False,
+    page: Annotated[int, Field(ge=1, le=100)] = 1,
+    limit: Annotated[int, Field(ge=1, le=30)] = 10,
 ) -> dict[str, Any]:
     """Search Jobvision job ads (استخدام) with filters and return one page of compact job cards.
 
-    Use this first for any job hunt. Each job has an id: call jv_job for its full text, jv_company for the employer
-    and its other ads, jv_similar_jobs for related ads. `applied` echoes the filters Jobvision recognised. Pay is
-    the advertised monthly range in million Toman; most ads hide it. Use jv_pay_stats for pay levels of a role.
+    Use first for any job hunt; then jv_job (full text), jv_company (employer), jv_similar_jobs. `applied` echoes
+    the filters Jobvision recognised. Pay is a monthly range in million Toman, hidden on most ads.
     """
     body = await _body(
         keyword,
@@ -351,9 +341,7 @@ def _text(h: str | None) -> str:
 async def jv_job(job_id: JobId) -> dict[str, Any]:
     """Get the full text and requirements of one Jobvision job ad.
 
-    Use after jv_search or jv_similar_jobs. Returns the description, required skills and software, conditions,
-    benefits, advertised pay (million Toman per month, often hidden), location, dates and the employer summary.
-    Call jv_company with company.id for the employer's other open ads.
+    Use after jv_search or jv_similar_jobs. Includes the employer summary; jv_company has its other open ads.
     """
     d = await get("/JobPost/Detail", {"jobPostId": job_id})
     if not d:
@@ -405,7 +393,7 @@ async def jv_job(job_id: JobId) -> dict[str, Any]:
 async def jv_similar_jobs(job_id: JobId) -> dict[str, Any]:
     """List job ads Jobvision considers similar to one ad.
 
-    Use after jv_job to widen a search around a good match. Returns the same compact cards as jv_search.
+    Use after jv_job to widen a search. Returns the same cards as jv_search.
     """
     data = await get("/JobPost/Recommendation/Similar", {"jobPostId": job_id})
     return {"jobs": [_card(p) for p in data or []]}
@@ -414,30 +402,35 @@ async def jv_similar_jobs(job_id: JobId) -> dict[str, Any]:
 @tool("Company profile")
 async def jv_company(
     company_id: CompanyId,
-    open_jobs: Annotated[
-        int, Field(ge=0, le=30, description="How many of its open ads to include (0 = profile only).")
-    ] = 10,
+    open_jobs: Annotated[int, Field(ge=0, le=30, description="Open ads to include (0 = profile only).")] = 10,
 ) -> dict[str, Any]:
     """Get an employer's profile and its currently open job ads.
 
-    Use with a company id from jv_search or jv_job. Returns size, ownership, industries, city, founding year,
-    website, description, benefits, Jobvision's 1-5 rating and rank, and counts, plus its open ads (newest first)
-    as job cards. To find a company id by name use jv_companies; jv_interviews shows its interview reports.
+    Includes Jobvision's 1-5 rating and rank and its open ads (newest first) as job cards. Find an id by name with
+    jv_companies; jv_interviews has interview reports.
     """
     d = await get("/Company/Details", {"companyId": company_id})
     if not d:
         raise ApiError(f"No company with id {company_id}.")
-    try:
-        card = await get("/Company/GetFilteredCompanySummaryCard", {"companyId": company_id}) or {}
-    except ApiError:  # the rating is a bonus; the profile still works without it
-        card = {}
-    jobs: list[dict] = []
-    total = d.get("activeJobPostCount")
-    if open_jobs and total != 0:
+
+    async def score() -> dict:
+        try:
+            return await get("/Company/GetFilteredCompanySummaryCard", {"companyId": company_id}) or {}
+        except ApiError:  # the rating is a bonus; the profile still works without it
+            return {}
+
+    async def listing() -> dict | None:
+        if not open_jobs or d.get("activeJobPostCount") == 0:
+            return None
         body = await _body(
             "", None, None, None, None, None, None, False, False, False, None, None, None, "newest", company_id
         )
-        res = await post("/JobPost/List", {**body, "pageSize": open_jobs, "requestedPage": 1})
+        return await post("/JobPost/List", {**body, "pageSize": open_jobs, "requestedPage": 1})
+
+    card, res = await asyncio.gather(score(), listing())
+    jobs: list[dict] = []
+    total = d.get("activeJobPostCount")
+    if res:
         jobs, total = [_card(p) for p in res["jobPosts"]], res["jobPostCount"]
     c = d["company"]
     return {
@@ -468,26 +461,25 @@ async def jv_company(
 
 @tool("Advertised pay statistics")
 async def jv_pay_stats(
-    keyword: Keyword = "",
-    city: City = None,
-    category: Category = None,
+    keyword: SameKeyword = "",
+    city: SameCity = None,
+    category: SameCategory = None,
     seniority: Annotated[
         Literal["intern", "worker", "employee", "specialist", "senior-specialist", "manager", "senior-manager", "ceo"]
         | None,
-        Field(description="Level of the role; same values as jv_search."),
+        Field(description="Same as jv_search."),
     ] = None,
     experience: Annotated[
         Literal["none", "under-2", "2-5", "5-8", "8-12", "over-12"] | None,
-        Field(description="Required experience bracket; same values as jv_search."),
+        Field(description="Same as jv_search."),
     ] = None,
-    remote: Annotated[bool, Field(description="Only remote jobs.")] = False,
+    remote: bool = False,
 ) -> dict[str, Any]:
     """Estimate pay for a role from the salaries open Jobvision ads advertise (million Toman per month).
 
-    Use for "how much does a python developer earn in Isfahan". It samples up to 300 of the newest matching ads
-    and summarises those that show a pay range: the median of the range midpoints, quartiles and the extremes.
-    This is what employers advertise today, not what people earn; many ads hide pay (see share_with_pay), so
-    treat small `ads_with_pay` counts as rough. Use jv_search with sort=salary to see the actual ads.
+    Samples up to 300 of the newest matching ads and summarises those showing pay: median of range midpoints,
+    quartiles, extremes. It is advertised pay, not what people earn; many ads hide pay (see share_with_pay), so
+    small `ads_with_pay` is rough. jv_search sort=salary lists the ads.
     """
     body = await _body(
         keyword, city, category, None, seniority, experience, None, remote, False, False, None, None, None, "newest"
@@ -523,11 +515,11 @@ async def jv_pay_stats(
 
 @tool("Suggest job titles")
 async def jv_suggest(
-    keyword: Annotated[str, Field(description="Start of a job title, e.g. pyth or حساب.", min_length=1, max_length=60)],
+    keyword: Annotated[str, Field(description="Start of a job title, e.g. pyth.", min_length=1, max_length=60)],
 ) -> dict[str, Any]:
     """Autocomplete job titles the way Jobvision's search box does, most used first.
 
-    Use to find the wording ads actually use before calling jv_search.
+    Use to find the wording ads use before jv_search.
     """
     k = keyword.strip().replace("+", "jv_plus").replace("#", "jv_sharp")  # the web app's own escaping
     data = await get("/Basedata/GetListOfSuggestedKeywords", {"keyword": k})
@@ -538,13 +530,12 @@ async def jv_suggest(
 async def jv_locations(
     query: Annotated[
         str,
-        Field(description="Part of a province, city or Tehran area name; empty lists the provinces.", max_length=60),
+        Field(description="Part of a place name; empty lists the provinces.", max_length=60),
     ] = "",
 ) -> dict[str, Any]:
     """Find the province, city or Tehran area names and slugs that jv_search's city filter accepts.
 
-    Use when a city name does not resolve. Kinds: province (slug all-cities-of-...), city, and area (Tehran has
-    north/south/west/east/centre and diagonal areas such as tehran-shomalgharbi).
+    Use when a city name does not resolve. Kinds: province (slug all-cities-of-...), city, area (Tehran areas).
     """
     places, n = await _locations(), _norm(query)
     if n:
@@ -579,15 +570,13 @@ async def jv_options(
             "salary_ranges",
             "posted_within",
         ],
-        Field(
-            description="Which list: categories (job categories, 77), industries, benefits, work_types, seniority, experience, salary_ranges, posted_within."
-        ),
+        Field(description="Which list (categories has 77)."),
     ],
 ) -> dict[str, Any]:
     """List the values of one Jobvision filter: ids and slugs with Persian and English names.
 
-    Use categories for jv_search's category slug, industries for `industry`, benefits for `benefit` (ids).
-    The other lists document what the fixed choices of jv_search mean (jv_search takes friendly names for those).
+    categories gives jv_search's category slug, industries `industry` ids, benefits `benefit` ids. The other lists
+    only document jv_search's fixed choices.
     """
     data = (await get("/JobPost/GetAllSearchFilters", ttl=DAY))[OPTION_KEYS[kind]]
     items = [
